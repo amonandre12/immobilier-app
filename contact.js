@@ -1,3 +1,18 @@
+
+const hidden = document.querySelector('.navigation_links')
+hidden.classList.add('navigation_links')
+const button = document.getElementById('menuToggle'); 
+
+
+if(button && hidden) {
+ button.addEventListener('click',function (e) {
+    e.preventDefault(); 
+
+   hidden.classList.toggle('active')
+}); 
+
+}
+
 const contactForm = document.getElementById("contact-form");
 const formResponse = document.getElementById('formResponse');
 
