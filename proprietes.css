@@ -135,24 +135,27 @@ nav a {
 }
 
 .services_content p {
-    max-width: 290px ;
+    max-width: 299px ;
     font-size: 1.2rem;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #6b7280;
 }
 
 
-.services_content h1 {
+.services_content h2 {
     color: #1e3a8a;
     font-weight: 600;
-    font-size: 2.25rem;
     position: relative;
     display: inline-block;
     text-align: center;
     margin-bottom: 1rem;
-
 }
+
+.services_content {
+    text-align: center;
+}
+
 
 .icons {
     font-size: 2.5rem;
@@ -344,7 +347,6 @@ nav {
 }
 
 
-
 .btn:hover::after {
     transform: scaleX(1);
 }
@@ -410,4 +412,12 @@ header{
 .network-arrow p {
     font-size: 1.25rem;
 }
+
+
+.services_content h2 {
+    color: #1e3a8a;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
 }

@@ -135,6 +135,7 @@ nav a {
     text-align: center;
 }
 
+
 .title_content h1 {
     color: #FFD700;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -318,26 +319,29 @@ nav a {
 
 .textContent p {
     color: #6b7280;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 
-.textContent h1 { 
-    margin-left: 40px;
+.textContent {
+    text-align: center;
+}
+
+.textContent h2 { 
     color: #1e3a8a;
     font-weight: 600;
     position: relative;
-    display: inline-block;
 }
 
 
-.textContent h1::after {
+.textContent h2::after {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: -10px;
-  width: 30%;
+  width: 20%;
   height: 4px;
   background-color: #FFC107; 
   border-radius: 2px;
@@ -429,7 +433,7 @@ nav a {
 }
 
 
-.apropos_content h1 { 
+.apropos_content h2 { 
     margin-left: 40px;
     color: #1e3a8a;
     font-weight: 600;
@@ -437,14 +441,18 @@ nav a {
     display: inline-block;
 }
 
+.proposTitle {
+    text-align: center;
+}
 
-.apropos_content h1::after {
+
+.apropos_content h2::after {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: -10px;
-  width: 30%;
+  width: 20%;
   height: 4px;
   background-color: #FFC107; 
   border-radius: 2px;
@@ -539,17 +547,17 @@ nav a {
 .my_contact {
     margin: 20px;
     padding: 15px;
+    text-align: center;
 }
 
 
-.my_contact h1 { 
+.my_contact h2 { 
     margin-left: 40px;
     color: #1e3a8a;
     font-weight: 600;
     position: relative;
-    display: inline-block;
-    font-size: 2.25rem;
 }
+
 
 .form-container {
     display: flex;
@@ -558,13 +566,13 @@ nav a {
 }
 
 
-.my_contact h1::after {
+.my_contact h2::after {
   content: "";
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: -10px;
-  width: 30%;
+  width: 20%;
   height: 4px;
   background-color: #FFC107; 
   border-radius: 2px;
@@ -797,7 +805,6 @@ nav {
 .navigation_links {
     margin-right: 80px;
     margin-top: 13px;
-    /* display: none; */
 }
 
 .btn::after {
@@ -877,7 +884,8 @@ header{
     margin-top: 90px;
 }
 
-.title_content h1  {
+
+.title_content h2  {
     font-size: 3.7em;
 }
 
@@ -885,7 +893,7 @@ header{
    left: 25%;
 }
 
-    
+
 .title_content p {
     font-size: 1.58rem;
 }
@@ -930,15 +938,17 @@ header{
     margin: 40px;
 }
 
+.textContent {
+    text-align: center;
+}
 
-.textContent h1 { 
-    margin-left: 440px;
+
+.textContent h2 { 
     font-size: 3rem;
 }
 
 
 .textContent p { 
-    margin-left: 360px;
     font-size: 1.3rem;
 }
 
@@ -960,14 +970,17 @@ header{
 }
 
 
-.apropos_content h1 { 
-    margin-left: 40px;
-    font-size: 3.25rem;
+.apropos_content h2 { 
+    font-size: 2.25rem;
 }
 
 .apropos_text {
     position: relative;
     bottom: 90px;
+}
+
+.proposTitle {
+    text-align: center;
 }
 
 .apropos_content p { 
@@ -993,13 +1006,12 @@ header{
   height: 500px;
 }
 
-
 .my_contact {
     text-align: center;
 }
 
-.my_contact h1 {
-    font-size: 3.15rem;
+.my_contact h2 {
+    font-size: 3.25rem;
 }
 
 #contact-form button {
