@@ -645,7 +645,7 @@ nav a {
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
-  margin-left: 50px;
+  margin-left: 28px;
   position: relative;
   top: 40px;
 }
@@ -1015,5 +1015,7 @@ header{
 #contact-form button {
     width: 400px;
     padding: 10px;
+    position: relative;
+    left: 18px;
 }
 }
