@@ -161,7 +161,6 @@ nav a {
 
 
 .my_contact h2 { 
-    margin-left: 40px;
     color: #1e3a8a;
     font-weight: 600;
     position: relative;
@@ -390,6 +389,7 @@ footer {
 li {
     list-style: none;
 }
+
 
 @media screen and (min-width : 768px) {
  

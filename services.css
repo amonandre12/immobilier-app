@@ -30,7 +30,6 @@
 }
 
 
-
 i {
     margin-right: 6px;
 }
@@ -144,10 +143,12 @@ nav a {
     top: 65px;
 }
 
+
 .liens:hover {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     transform: translateY(-3px);
 }
+
 
 .description {
     margin-top: 30px;
@@ -158,6 +159,7 @@ nav a {
     top: 10px; 
     color: #6b7280;
 }
+
 
 .icons {
     background-color: #F59E0B;
@@ -172,8 +174,9 @@ nav a {
 
 .services {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 120px;
 }
+
 
 .services i {
     font-size: 40px;
@@ -183,16 +186,14 @@ nav a {
 
 .services_content p {
     max-width: 290px ;
-    font-size: 1.2rem;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 30px;
     color: #6b7280;
 }
 
-.services_content h1 {
+.services_content h2 {
     color: #1e3a8a;
     font-weight: 600;
-    font-size: 2.25rem;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -200,7 +201,11 @@ nav a {
 
 }
 
-.services_content h1::after {
+.services_content {
+    text-align: center;
+}
+
+.services_content h2::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -354,6 +359,7 @@ nav {
     margin-top: 13px;
 }
 
+
 .btn::after {
     content: "";
     position: absolute;
@@ -406,6 +412,7 @@ header{
     width: 1120px;
 }
 
+
 .footer-content {
     display: flex;
     flex-direction: row;
@@ -438,7 +445,7 @@ header{
     font-size: 1.2rem;
 }
 
-.services_content h1 {
+.services_content h2 {
     font-size: 3rem;
 }
 
