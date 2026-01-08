@@ -141,9 +141,10 @@ nav a {
 
 
 .services_content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
     color: #6b7280;
+    margin-right: 20px;
 }
 
 
