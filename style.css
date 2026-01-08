@@ -244,7 +244,7 @@ nav a {
 
 .services {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .services i {
@@ -255,16 +255,14 @@ nav a {
 
 .services_content p {
     max-width: 290px ;
-    font-size: 1.2rem;
-    margin-left: 50px;
     margin-top: 30px;
+    margin-left: 40px;
     color: #6b7280;
 }
 
-.services_content h1 {
+.services_content h2 {
     color: #1e3a8a;
     font-weight: 600;
-    font-size: 2.25rem;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -272,7 +270,7 @@ nav a {
 
 }
 
-.services_content h1::after {
+.services_content h2::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -883,7 +881,7 @@ header{
 }
 
 
-.title_content h2  {
+.title_content h1  {
     font-size: 3.7em;
 }
 
@@ -898,6 +896,7 @@ header{
 
 .btton {
     font-size: 1.25em;
+    margin-top: 40px;
 }
 
    
@@ -913,8 +912,8 @@ header{
     font-size: 1.2rem;
 }
 
-.services_content h1 {
-    font-size: 3rem;
+.services_content h2 {
+     font-size: 3rem;
 }
 
 .services_content p {
