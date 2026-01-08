@@ -134,10 +134,14 @@ nav a {
     margin: 10px;
 }
 
+
+.services_content {
+    text-align: center;
+}
+
+
 .services_content p {
-    max-width: 299px ;
     font-size: 1.2rem;
-    margin-left: 50px;
     margin-top: 10px;
     color: #6b7280;
 }
@@ -152,9 +156,7 @@ nav a {
     margin-bottom: 1rem;
 }
 
-.services_content {
-    text-align: center;
-}
+
 
 
 .icons {
