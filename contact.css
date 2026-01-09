@@ -413,7 +413,8 @@ nav {
 
 .nav_contenaire img {
   margin-left: 70px;
-  border-radius: 50%;
+  position: relative;
+  bottom: 9px;
 }
 
 .navigation_links {

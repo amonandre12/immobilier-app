@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proprites services</title>
+     <meta name="description"
+    content="Découvrez les différents types de propriétés gérées par CIC Immobilier en Côte d’Ivoire : appartements, maisons, terrains et biens commerciaux.">
+
     <script src="app.js" type="module"  defer ></script>
     <script src="proprietes.js" type="module"  defer ></script>
      <link rel="stylesheet" 
@@ -11,116 +14,124 @@
     <link href="proprietes.css" rel="stylesheet"> 
 </head>
 <body>
-    
-     <header>
 
-            <div class="nav_contenaire">
-            
-            <div class="mobile-styles">
+   
+    <!-- ================= HEADER ================= -->
 
-                 <div class="logo">
-              <a href=""><img src="images/logo-cic.jpeg" width="50px" alt="logo du site "/></a>
-              </div>
-  
-              <div class="menu" id="menuToggle">
-              <i class="fas fa-bars"></i>
-              </div>
+<header>
+  <div class="nav_contenaire">
 
+    <!-- Section mobile : logo et menu hamburger -->
+    <div class="mobile-styles">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo-cic.jpeg" width="50" height="50" alt="Logo du site CIC">
+        </a>
+      </div>
 
-            </div>
-               
-            
-           <div class="navigation_links">
-
-            <nav>
-                <a href="index.html" class="link active"><i class="fa-solid fa-house"></i>Accueil</a>
-                <a href="services.html" class="link"><i class="fa-solid fa-gears"></i>Services</a>
-                <a href="proprietes.html" class="link"><i class="fa-regular fa-building"></i>Propriétés</a>
-                <a href="apropos.html" class="link"><i class="fa-solid fa-circle-info"></i>À Propos</a>
-                <a href="contact.html" class="btn"><i class="fa-solid fa-phone"></i>Nous contacter</a>
-            </nav>
-         </div>
-        </div>
-        
-         </header>
-    <main>
-        <article>
-
-             <section class = "services">
-
-                <div class="services_content">
-                     <h2>Types de Propriétés </h2>  
-
-                  <p>Nous gérons une large variété de propriétés pour répondre à tous vos besoins.</p>
-
-                </div>
-            
-
-                <div id="propertyContent"></div>  
-            </section>
-        </article>
-    </main>
-
-     <footer>
-
-        <div class="footer-content">
-
-            <div  class="network-arrow">
-            <h3 class="footer-title">CIC</h3>
-
-            <p>La référence immobilière <br/> ivoirienne.</p>
-
-            <div class="reseaux-group">
-
-                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                
-            </div>
-          </div>
-
-         <div class="links-rapide">
-
-            <h3 class="footer-title">Liens rapides</h3>
-
-            <div class="footer-links">
-
-                <a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a> <br/>
-                <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a><br/>
-                <a href="proprietes.html"><i class="fas fa-chevron-right"></i>Propriétés</a> <br/>
-                <a href="apropos.html"><i class="fas fa-chevron-right"></i>A propos</a> <br/>
-                <a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a>
-            </div>
-        </div>
-
-        <div class="footer-contacts">
-            <h3 class="footer-title">Contact</h3>
-
-            <ul>
-                <li><i class="fas fa-map-marker-alt"></i> Cocody Angré les Oscars</li>
-                <li><i class="fas fa-phone-alt"></i> +225 05 00 33 48 38 / 07 12 19 60 32</li>
-                <li><i class="fas fa-envelope"></i> Contactimmobilier@gmail.com</li>
-            </ul>
-        </div>
-
-        <div class="footer-times">
-            <h3 class="footer-title">Horaires d'ouverture</h3>
-            <ul>
-                <li><i class="far fa-clock"></i> Lundi - Vendredi: 8h-18h</li>
-                <li><i class="far fa-clock"></i> Samedi: 9h-13h</li>
-                <li><i class="far fa-clock"></i> Dimanche: Fermé</li> 
-            </ul>
-        </div>
-
+      <button class="menu" id="menuToggle" aria-label="Menu mobile">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
 
-       <div class="trait"></div>
+    <!-- Navigation principale -->
+     <div class="navigation_links" >
 
-     <div class="copyright">
-                <p>© 2025 CIC - Contact Immobilier Côte d'Ivoire. Tous droits réservés.</p>
-            </div>
-       
-     </footer>
+       <nav aria-label="Navigation principale">
+
+      <a href="index.html" class="link active">
+        <i class="fa-solid fa-house"></i> Accueil
+      </a>
+
+      <a href="services.html" class="link">
+        <i class="fa-solid fa-gears"></i> Services
+      </a>
+
+      <a href="proprietes.html" class="link">
+        <i class="fa-regular fa-building"></i> Propriétés
+      </a>
+
+      <a href="apropos.html" class="link">
+        <i class="fa-solid fa-circle-info"></i> À Propos
+      </a>
+
+      <a href="contact.html" class="btn">
+        <i class="fa-solid fa-phone"></i> Nous contacter
+      </a>
+
+    </nav>
+     </div>
+
+  </div>
+</header>
+
+<main>
+  <article>
+    
+    <section class = "services">
+      <div class="services_content">
+        <h2>Types de Propriétés </h2>
+        <p>Nous gérons une large variété de propriétés pour répondre à tous vos besoins.</p>
+      </div>
+      
+      <div id="propertyContent"></div>
+    </section>
+  </article>
+
+</main>
+
+<footer>
+  
+  <div class="footer-content">
+    <div  class="network-arrow">
+      <h3 class="footer-title">CIC</h3>
+      <p>La référence immobilière <br/> ivoirienne.</p>
+      <div class="reseaux-group">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    
+    <div class="links-rapide">
+      <h3 class="footer-title">Liens rapides</h3>
+      <div class="footer-links">
+        <a href="index.html"><i class="fas fa-chevron-right"></i> Accueil</a> <br/>
+        <a href="services.html"><i class="fas fa-chevron-right"></i> Services</a><br/>
+        <a href="proprietes.html"><i class="fas fa-chevron-right"></i>Propriétés</a> <br/>
+        <a href="apropos.html"><i class="fas fa-chevron-right"></i>A propos</a> <br/>
+        <a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a>
+      </div>
+    </div>
+    
+    <div class="footer-contacts">
+      
+      <h3 class="footer-title">Contact</h3>
+      
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i> Cocody Angré les Oscars</li>
+        <li><i class="fas fa-phone-alt"></i> +225 05 00 33 48 38 / 07 12 19 60 32</li>
+        <li><i class="fas fa-envelope"></i> Contactimmobilier@gmail.com</li>
+      </ul>
+    </div>
+    
+    <div class="footer-times">
+      <h3 class="footer-title">Horaires d'ouverture</h3>
+      <ul>
+        <li><i class="far fa-clock"></i> Lundi - Vendredi: 8h-18h</li>
+        <li><i class="far fa-clock"></i> Samedi: 9h-13h</li>
+        <li><i class="far fa-clock"></i> Dimanche: Fermé</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="trait"></div>
+
+  <div class="copyright">
+    <p>© 2025 CIC - Contact Immobilier Côte d'Ivoire. Tous droits réservés.</p>
+  </div>
+
+</footer>
 </body>
 </html>

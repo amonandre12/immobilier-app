@@ -304,6 +304,7 @@ nav {
     gap: 40px;
 }
 
+
 .menu {
     display: none;
 }
@@ -317,13 +318,16 @@ nav {
 
 .nav_contenaire img {
   margin-left: 70px;
-  border-radius: 50%;
+  position: relative;
+  bottom: 9px;
 }
+
 
 .navigation_links {
     margin-right: 80px;
     margin-top: 13px;
 }
+
 
 .btn::after {
     content: "";
@@ -338,15 +342,18 @@ nav {
     transition: transform 0.3s ease;
 }
 
+
 .btn {
     padding: 15px;
     background-color: #FFB224;
     border-radius: 10px;
 }
 
+
 .btn:hover {
     background: #F59E0B;
 }
+
 
 .btn:hover::after {
     transform: scaleX(1);
@@ -364,6 +371,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
 
 header{
     position: fixed;
@@ -383,6 +391,7 @@ header{
     width: 1120px;
 }
 
+
 .apropos_content {
     display: flex;
     flex-direction: row;
@@ -393,17 +402,11 @@ header{
 }
 
 .section_apropos {
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 .apropos_img {
     width: 2850px;
-}
-
-
-.apropos_content h1 { 
-    margin-left: 40px;
-    font-size: 3.25rem;
 }
 
 
@@ -423,7 +426,7 @@ header{
 
 
 .expetise-content h2 {
-    font-size: 2.25rem;
+    font-size: 3rem;
     color: #1e3a8a;
 }
 
