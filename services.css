@@ -330,6 +330,12 @@ li {
     list-style: none;
 }
 
+
+.mobile-styles button {
+    border: none;
+    background: none;
+}
+
 @media screen and (min-width : 768px) {
     
 nav {

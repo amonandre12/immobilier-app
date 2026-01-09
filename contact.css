@@ -391,6 +391,11 @@ li {
 }
 
 
+.mobile-styles button {
+    border: none;
+    background: none;
+}
+
 @media screen and (min-width : 768px) {
  
 
